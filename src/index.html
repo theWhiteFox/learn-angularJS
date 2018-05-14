@@ -5,13 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Try AngularJS 1.5</title>
+    <title>Learn AngularJS 1.5</title>
     <script src="./js/angular.min.js"></script>
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script> -->
     <link rel="stylesheet" href="css/style.css">
 
     <script src="./js/app/app.module.js"></script>
     <script src="./js/app/app.config.js"></script>
+
+    <script src="./js/app/blog-list/blog-list.module.js" ></script>
+    <script src="./js/app/blog-list/blog-list.component.js" ></script>
 </head>
 
 <body>
@@ -19,8 +22,11 @@
         <span ng-if="name">{{ name }}</span>
         <span ng-if="!name">World</span>!
     </h1>
-    <input type="text" ng-model="name">
+    <input type="text" ng-model="name" placeholder="name">
     <input type="text" ng-model="font" placeholder="font">
+
+    <blog-list></blog-list>
+
 </body>
 
 </html>

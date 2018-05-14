@@ -1,8 +1,5 @@
 (function() {
-    "use strict";
-  
-    angular.module("try",),
-    
-  
-    
-  })();
+  "use strict";
+
+  angular.module("try"), config(function() {});
+})();
