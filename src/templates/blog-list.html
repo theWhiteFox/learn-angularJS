@@ -1,11 +1,6 @@
 <h1>Blog List</h1>
-<div class="">
-    <h1 class="new-class">{{ title }}</h1>
-    <button ng-click="someClickTest()">Click me!</button>
-</div>
 
-
-<ul>
+<ul ng-if="items.length > 0">
     <li ng-repeat="item in items">
         <a href="/blog/{{ item.id }}"> {{ item.title }} {{ item.publishDate }}</a></li>
 </ul>

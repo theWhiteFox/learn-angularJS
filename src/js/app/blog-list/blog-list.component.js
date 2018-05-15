@@ -2,8 +2,7 @@
   "use strict";
 
   angular.module("blogList")
-  .component("blogList", {
-    // template: "<div class=''><h1 class='new-class'>{{ title }}</h1><button ng-click='someClickTest()'>Click me!</button></div>", 
+  .component("blogList", {   
     templateUrl: "templates/blog-list.html",
     controller: function($scope) {
       var blogItems = [

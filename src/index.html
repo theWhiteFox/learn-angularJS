@@ -2,30 +2,28 @@
 <html lang="en" ng-app="try">
 
 <head>
+    <base href="/">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Learn AngularJS 1.5</title>
-    <script src="./js/angular.min.js"></script>
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script> -->
-    <link rel="stylesheet" href="css/style.css">
+    <!-- <script src="js/angular.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-resource.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-route.js"></script>
+    <link rel="stylesheet" href="/css/style.css">
 
-    <script src="./js/app/app.module.js"></script>
-    <script src="./js/app/app.config.js"></script>
+    <script src="/js/app/app.module.js"></script>
+    <script src="/js/app/app.config.js"></script>
 
-    <script src="./js/app/blog-list/blog-list.module.js"></script>
-    <script src="./js/app/blog-list/blog-list.component.js"></script>
+    <script src="/js/app/blog-list/blog-list.module.js"></script>
+    <script src="/js/app/blog-list/blog-list.component.js"></script>
 </head>
 
 <body>
-    <h1 class="new-class" ng-class="{'other-class': name=='Stephen', 'new-class2': font==120}">Hello,
-        <span ng-if="name">{{ name }}</span>
-        <span ng-if="!name">World</span>!
-    </h1>
-    <input type="text" ng-model="name" placeholder="name">
-    <input type="text" ng-model="font" placeholder="font">
 
     <blog-list></blog-list>
+    <!-- <div ng-view></div> -->
 
 </body>
 
