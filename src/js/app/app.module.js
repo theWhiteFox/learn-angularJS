@@ -7,6 +7,7 @@
     "ngRoute",
 
     // internal
+    "blogDetail",
     "blogList"
   ]);
 })();

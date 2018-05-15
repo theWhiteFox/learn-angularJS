@@ -12,9 +12,9 @@
         templateUrl: "templates/about.html"
       })
       .when("/blog/:id", {
-        template: "<h1>Hi from page 1</h1>"
+        template: "<blog-detail></blog-detail>"
       })
-      // .when("/blog/2", {
+      // .when("/blog/:id/abc", {
       //   template: "<h1>Hi from page 2</h1>"
       // })
       .otherwise({
