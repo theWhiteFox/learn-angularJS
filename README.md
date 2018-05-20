@@ -7,6 +7,8 @@
 - templates
 - routes
 - parameters
+- forEach
+- $http
 
 ## Python
 
@@ -21,6 +23,14 @@
 - `rackup`
 
 ## Links
+
+[Angularjs $routeParams](https://docs.angularjs.org/api/ngRoute/service/$routeParams)
+
+[Angularjs ngRoute](https://docs.angularjs.org/api/ngRoute)
+
+[Angularjs forEach](https://docs.angularjs.org/api/ng/function/angular.forEach)
+
+[Angularjs $http](https://docs.angularjs.org/api/ng/service/$http)
 
 [Ruby Win10](https://rubyinstaller.org/)
 
