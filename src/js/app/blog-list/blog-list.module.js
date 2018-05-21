@@ -1,6 +1,5 @@
 (function() {
-    "use strict";
-  
-    angular.module("blogList", []);
-  })();
-  
+  "use strict";
+
+  angular.module("blogList", ["post"]);
+})();

@@ -25,3 +25,5 @@
 [Ruby Win10](https://rubyinstaller.org/)
 
 [rack](https://rack.github.io/)
+
+[Angularjs ngResource](https://docs.angularjs.org/api/ngResource/service/$resource)
