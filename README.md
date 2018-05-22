@@ -1,4 +1,4 @@
-# Learning AngularJS & Python
+# Learning AngularJS, a little Python & Ruby
 
 ## AngularJS
 
@@ -9,6 +9,7 @@
 - parameters
 - forEach
 - $http
+- Angular Utils Pagination
 
 ## Python
 
