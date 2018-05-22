@@ -39,3 +39,5 @@
 
 [Angularjs ngResource](https://docs.angularjs.org/api/ngResource/service/$resource)
 
+[github michaelbromley angularUtils pagination](https://github.com/michaelbromley/angularUtils/tree/master/src/directives/pagination)
+

@@ -3,9 +3,21 @@
     "title": "Some Title",
     "id": 1,
     "description": "This is a book",
-    "publishDate": "2018-05-14"
+    "publishDate": "2018-05-14",
+    "comments": [
+      { "id": 1, "text": "Nice Book" },
+      { "id": 2, "text": "Another Nice Book" }
+    ]
   },
-  { "title": "Title", "id": 2, "description": "This is a book" },
+  {
+    "title": "Title",
+    "id": 2,
+    "description": "This is a book",
+    "comments": [
+      { "id": 1, "text": "Nice Book" },
+      { "id": 2, "text": "Another Nice Book" }
+    ]
+  },
   { "title": "Tea", "id": 3, "description": "This is a book" },
   { "title": "Coffee", "id": 4, "description": "This is a book" }
 ]

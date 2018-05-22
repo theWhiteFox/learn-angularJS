@@ -18,3 +18,7 @@ body {
 .new-class2 {
   font-size: 120px;
 }
+
+.reply-text {
+  color: red;
+}
