@@ -1,15 +1,20 @@
-<h1>Blog List</h1>
+<h1>Blog List
+    <small>
+        <a href="#" ng-click="changeCol(2)">Change</a>
+    </small>
+</h1>
 
-<!-- <ul ng-if="items.length > 0">
-    <li ng-repeat="post in items">
-        <a ng-href="/blog/{{ post.id }}" confirm-click="Are you ready?" confirmed-click="goToPost(post)"> {{ post.title }} {{ post.publishDate }}</a>
-    </li>
-</ul> -->
+<div class="col-sm-6">
+    <input type="text" ng-model="query" class="form-control" placeholder="Filter">
+</div>
 
 <span ng-if="items.length == 0">Posts coming soon</span>
 
+<div class="row" ng-repeat="items in colItems">{{ items }}</div>
+
+
 <div class="row">
-    <div class="col-sm-6 col-md-4" ng-repeat="post in items">
+    <div class="{{cssClass}}" ng-repeat="post in items">
         <div class="thumbnail">
             <img src="..." alt="...">
             <div class="caption">
@@ -17,7 +22,7 @@
                 <p>{{ post.text }} {{ post.publishDate }}</p>
                 <p>
                     <a class="btn btn-primary" ng-href="/blog/{{ post.id }}" confirm-click="Are you ready?" confirmed-click="goToPost(post)">
-                    View </a>
+                        View </a>
                 </p>
             </div>
         </div>
