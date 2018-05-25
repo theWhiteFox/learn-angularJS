@@ -11,7 +11,7 @@
           method: "GET",
           params: {},
           isArray: true,
-          cache: true
+          cache: false
           // transformResponse,
           // interceptor
         },

@@ -30,7 +30,7 @@
     ]
   },
   {
-    "title": "Magazine Title",
+    "title": "Mag Title",
     "id": 4,
     "description": "This is a book",
     "publishDate": "2018-05-14",
@@ -80,7 +80,7 @@
     ]
   },
   {
-    "title": "Some Title",
+    "title": "Lord Title",
     "id": 9,
     "description": "This is a book",
     "publishDate": "2018-05-14",
@@ -90,7 +90,7 @@
     ]
   },
   {
-    "title": "Some Title",
+    "title": "Your Title",
     "id": 10,
     "description": "This is a book",
     "publishDate": "2018-05-14",
@@ -100,7 +100,7 @@
     ]
   },
   {
-    "title": "Some Title",
+    "title": "What Title?",
     "id": 11,
     "description": "This is a book",
     "publishDate": "2018-05-14",
@@ -110,7 +110,7 @@
     ]
   },
   {
-    "title": "Some Title",
+    "title": "Nice Title!",
     "id": 12,
     "description": "This is a book",
     "publishDate": "2018-05-14",
@@ -118,7 +118,16 @@
       { "id": 1, "text": "Nice Book" },
       { "id": 2, "text": "Another Nice Book" }
     ]
-  }
-  
+  },
+  {
+    "title": "No Title",
+    "id": 13,
+    "description": "This is a book",
+    "publishDate": "2018-05-14",
+    "comments": [
+      { "id": 1, "text": "Nice Book" },
+      { "id": 2, "text": "Another Nice Book" }
+    ]
+  } 
   
 ]
