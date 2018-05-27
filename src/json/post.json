@@ -7,7 +7,8 @@
     "comments": [
       { "id": 1, "text": "Nice Book" },
       { "id": 2, "text": "Another Nice Book" }
-    ]
+    ],
+    "image": "/img/index.svg"
   },
   {
     "title": "Film Title",
@@ -17,7 +18,8 @@
     "comments": [
       { "id": 1, "text": "Nice Book" },
       { "id": 2, "text": "Another Nice Book" }
-    ]
+    ],
+    "image": "/img/index.svg"
   },
   {
     "title": "TV Title",
@@ -27,7 +29,8 @@
     "comments": [
       { "id": 1, "text": "Nice Book" },
       { "id": 2, "text": "Another Nice Book" }
-    ]
+    ],
+    "image": "/img/index.svg"
   },
   {
     "title": "Mag Title",
@@ -37,7 +40,8 @@
     "comments": [
       { "id": 1, "text": "Nice Book" },
       { "id": 2, "text": "Another Nice Book" }
-    ]
+    ],
+    "image": "/img/index.svg"
   },
   {
     "title": "CD Title",
@@ -47,7 +51,8 @@
     "comments": [
       { "id": 1, "text": "Nice Book" },
       { "id": 2, "text": "Another Nice Book" }
-    ]
+    ],
+    "image": "/img/index.svg"
   },
   {
     "title": "Album Title",
@@ -57,7 +62,8 @@
     "comments": [
       { "id": 1, "text": "Nice Book" },
       { "id": 2, "text": "Another Nice Book" }
-    ]
+    ],
+    "image": "/img/index.svg"
   },
   {
     "title": "Play Title",
@@ -67,7 +73,8 @@
     "comments": [
       { "id": 1, "text": "Nice Book" },
       { "id": 2, "text": "Another Nice Book" }
-    ]
+    ],
+    "image": "/img/index.svg"
   },
   {
     "title": "Blog Title",
@@ -77,57 +84,63 @@
     "comments": [
       { "id": 1, "text": "Nice Book" },
       { "id": 2, "text": "Another Nice Book" }
-    ]
+    ],
+    "image": "/img/index.svg"
   },
   {
     "title": "Lord Title",
     "id": 9,
     "description": "This is a book",
-    "publishDate": "2018-05-14",
+    "publishDate": "2018-05-40",
     "comments": [
       { "id": 1, "text": "Nice Book" },
       { "id": 2, "text": "Another Nice Book" }
-    ]
+    ],
+    "image": "/img/index.svg"
   },
   {
     "title": "Your Title",
     "id": 10,
     "description": "This is a book",
-    "publishDate": "2018-05-14",
+    "publishDate": "2018-05-24",
     "comments": [
       { "id": 1, "text": "Nice Book" },
       { "id": 2, "text": "Another Nice Book" }
-    ]
+    ],
+    "image": "/img/index.svg"
   },
   {
     "title": "What Title?",
     "id": 11,
     "description": "This is a book",
-    "publishDate": "2018-05-14",
+    "publishDate": "2018-05-07",
     "comments": [
       { "id": 1, "text": "Nice Book" },
       { "id": 2, "text": "Another Nice Book" }
-    ]
+    ],
+    "image": "/img/index.svg"
   },
   {
     "title": "Nice Title!",
     "id": 12,
     "description": "This is a book",
-    "publishDate": "2018-05-14",
+    "publishDate": "2018-05-06",
     "comments": [
       { "id": 1, "text": "Nice Book" },
       { "id": 2, "text": "Another Nice Book" }
-    ]
+    ],
+    "image": "/img/index.svg"
   },
   {
     "title": "No Title",
     "id": 13,
     "description": "This is a book",
-    "publishDate": "2018-05-14",
+    "publishDate": "2018-05-10",
     "comments": [
       { "id": 1, "text": "Nice Book" },
       { "id": 2, "text": "Another Nice Book" }
-    ]
+    ],
+    "image": "/img/index.svg"
   } 
   
 ]
