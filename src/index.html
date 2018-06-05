@@ -40,15 +40,18 @@
     <script src="/js/app/utils/confirm-click/confirm-click.module.js"></script>
     <script src="/js/app/utils/confirm-click/confirm-click.directive.js"></script>
 
+    <script src="/js/app/utils/my-nav/my-nav.module.js"></script>
+    <script src="/js/app/utils/my-nav/my-nav.directive.js"></script>
 
 
 </head>
 
 <body>
-    <nav class="container">
-        <h1>theWhiteFox</h1>
-    </nav>
-    <div class="container" ng-view></div>
+    <div class="container">
+        <my-nav></my-nav>
+        <div class="col-sm-12" ng-view>
+        </div>
+    </div>
 
 </body>
 

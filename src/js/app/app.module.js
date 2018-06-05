@@ -10,6 +10,7 @@
     // internal
     "blogDetail",
     "blogList",
-    "confirmClick"
+    "confirmClick",
+    "myNav"
   ]);
 })();

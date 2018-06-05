@@ -2,6 +2,9 @@
 
 ## AngularJS
 
+- [scopes](https://docs.angularjs.org/guide/scope)
+    - [$watch](https://docs.angularjs.org/api/ng/type/$rootScope.Scope#$watch)
+    - [$apply](https://docs.angularjs.org/api/ng/type/$rootScope.Scope#$apply)
 - directives
 - conditionals
 - templates
