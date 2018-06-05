@@ -1,5 +1,5 @@
 (function() {
     "use strict";
   
-    angular.module("myNav", []);
+    angular.module("myNav", ['post']);
   })();

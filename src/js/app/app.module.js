@@ -6,6 +6,7 @@
     "angularUtils.directives.dirPagination",
     "ngResource",
     "ngRoute",
+    "ui.bootstrap",
 
     // internal
     "blogDetail",

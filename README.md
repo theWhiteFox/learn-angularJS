@@ -44,3 +44,4 @@
 
 [github michaelbromley angularUtils pagination](https://github.com/michaelbromley/angularUtils/tree/master/src/directives/pagination)
 
+[Interceptors in AngularJS useful examples](http://www.webdeveasy.com/interceptors-in-angularjs-and-useful-examples/)
